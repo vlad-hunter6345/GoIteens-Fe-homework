@@ -1,0 +1,124 @@
+.href{
+    display: inline-block;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+margin: 10px 261px;
+color: grey;
+}
+.href::first-letter{
+    color: aquamarine;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.der{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+text-align: right;
+margin: 0px 162px;
+
+}
+a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    padding: 0px 20px;
+}
+.fact{
+    display: inline-block;
+    margin: 30px 578px;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(68, 66, 66);
+    font-family: 'Roboto', sans-serif;
+    
+}
+h2::after{
+    content: "";
+    position: absolute;
+    top: 140px;
+    right: 1020px;
+    height: 7px;
+    width: 170px;
+    background-color: #4ec6ab;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background: whitesmoke;
+    display: inline-block;
+    margin: 40px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    width: 200px;
+    height: 40px;
+    background: rgb(39, 38, 38);
+}
+.name{
+    width: 120px;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.price{
+    width: 76px;
+    display: inline-block;
+    line-height: 40px;
+    color: white;
+    background-color: rgb(141, 136, 136);
+    text-align: center;
+}
+.price:hover{
+    background-color: blue;
+}
+.item:hover .footer{
+    background: rgb(0, 255, 221);
+}
+.item:hover .img{
+    background: rgb(53, 91, 128);
+}
+.kartinka{
+    width: 200px;
+    height: 200px;}
+  .line{
+    margin-left: 15%;
+  }
+  .inner{
+display: inline-block;
+
+  }
+  .outer{
+      display: inline-block;
+
+  }
+  .r{
+      width: 100px;
+      height: 50px;
+  }
+  h3::after{
+    content: "";
+    position: absolute;
+    top: 900px;
+    right: 950px;
+    height: 7px;
+    width: 170px;
+    background-color: #4ec6ab;
+}
+.link{
+    padding: 0px 100px;
+}
+button{
+    background-color: rgb(34, 173, 155);
+    margin: 0px 100px;
+}
